@@ -2030,32 +2030,21 @@
       <div class="row">
         <div class="col-12">
           <div class="section-title">
-            <h2 id="challenge">Challenge (Tentative)</h2>
+            <h2 id="challenge">Challenge</h2>
           </div>
           <div style="font-weight: 400;">
-            This workshop will host a competition focused on adversarial attacks against vision-language agent models, with an emphasis on two critical and timely research directions: (1) jailbreaking attacks targeting real-world embodied Vision–Language Agents, and (2) toxicity induction attacks against Large Vision-Language Models. These directions reflect urgent challenges in ensuring the safety, reliability, and ethical behavior of multimodal AI systems in practical applications. The competition comprises two parallel tracks, one for each research direction, each structured into two phases. During Phase 1, participants will engage in white-box evaluation, where model and training data are accessible; in Phase 2, evaluation shifts to a black-box setting, where neither models nor data are directly accessible, simulating realistic deployment scenarios.
-
-
+            With the rapid development of multimodal foundation models and vision-language agents (VLAs), their safety and security risks have become important concerns for both academia and industry. In safety-critical domains such as autonomous driving, VLAs are expected to understand complex driving scenes and generate reliable responses for driving-related reasoning and decision-making. Ensuring their robustness and safety is therefore essential.
+            
             <br/>
             <br/>
 
-            <strong>Track I</strong>: Jailbreak Attacks on Embodied Vision–Language Agents. This workshop will hold a competition about jailbreak attacks that induce unsafe behaviors in Vision–Language Agents (VL agents) operating in simulated environments. As VL agents are increasingly deployed in embodied and decision-making settings, their ability to resist prompt- or image-based manipulations that cause them to execute harmful actions has become a critical safety concern. Specifically, participants are asked to design and submit adversarial instructions and environment-task scenarios that cause VL agents in a simulated environment to carry out unsafe behaviors. We classify unsafe behaviors into three categories for this competition: (1) environment-harmful actions that damage the simulated environment; (2) human-harmful actions that put simulated humans or human-representative agents at risk; and (3) agent-self-harmful actions that degrade or disable the agent’s own capabilities. Submissions should include a concise description of the attack, the input(s) used, and the target task or agent configuration.
-            <br/>The competition comprises two phases. During phase 1 we will adopt white-box evaluation (participants may access model internals and agent configurations), while during phase 2 we will adopt black-box evaluation (only query access to agents is allowed). Teams will be ranked using a severity-weighted unsafe-behavior score computed from the final round inputs and the agents’ observed behaviors; higher scores indicate more effective jailbreaks. Detailed scoring criteria and simulation rules will be provided with the evaluation code.
-            <br/>The dataset and simulation scenarios used in this competition are still under construction and will be released before March 15, 2026. If necessary contingencies arise, we will adopt an appropriate third-party open-source simulator/dataset as a replacement. Regarding ethics, we recognize potential risks in researching adversarial attacks. We will conduct an ethical review, limit exposure to real-world actionable instructions, sandbox all simulations, and require participants to agree to responsible-use terms; we believe these measures mitigate potential ethical concerns.
-
-
-            <br/>
-            <br/>
-
-            <strong>Track II</strong>: Jailbreak Attacks on Large Vision Language Models. This workshop will hold a competition about toxicity induction attacks against Large Vision-Language Models (LVLMs). With the widespread application of LVLMs globally, their toxicity has become a focal point of academic and industrial attention. Specifically, participants are asked to design and submit image-text pairs as adversarial examples in appointed tasks to induce LVLMs to produce toxic content (an utterance is toxic if it is rude, disrespectful, or unreasonable language likely to make someone leave a discussion).
-            <br/>In particular, this competition has 2 phases. During phase 1, we will adopt white-box evaluation (only models are accessible), while during phase 2, we will adopt black-box evaluation (models are not accessible). Ultimately, teams will be evaluated based on the toxicity score using the final round image-text pairs to determine the winning teams. We believe this competition will improve understanding of LVLMs' robustness against toxicity risks and promote their safe practical applications. The dataset used in this competition is not available now, yet we will finish it before March 15, 2026. If there are some contingencies, we will introduce the other third-party open-source dataset as a replacement. As for the ethical concerns, we do not find any potential ethical risks. The timeline can be found in the following table.
-
+            To systematically explore the potential threats inherent in these systems and strengthen their practical safety, we are initiating this security challenge focused on adversarial multimodal attacks against VLAs. This initiative seeks to engage global developers, researchers, and security experts in designing and submitting adversarial inputs that reveal vulnerabilities in VLAs, particularly in autonomous driving scenarios based on DriveLM (https://github.com/OpenDriveLab/DriveLM). Participants are encouraged to design adversarial attacks that could induce unsafe, harmful, or misleading outputs, including but not limited to incorrect traffic understanding, unsafe driving-related reasoning, and misleading responses to driving questions. Through this collaborative effort, we aim to promote the development of comprehensive vulnerability evaluation frameworks, advance defensive paradigm innovation, and shape more secure development standards for next-generation VLAs. By proactively identifying and addressing these risks, this challenge contributes to building safer, more trustworthy AI systems capable of meeting the ethical and functional demands of their increasingly critical roles in society.
 
             <br/><br/>
             
             <strong>Challenge Site</strong>: 
-            <a href="https://challenge.aisafety.org.cn/#/competitionDetail?id=19"
-            style="color:blue;" target="_blank">TBD</a>
+            <a href="https://challenge.aisafety.org.cn/#/competitionDetail?id=24"
+            style="color:blue;" target="_blank">https://challenge.aisafety.org.cn/#/competitionDetail?id=24</a>
           </div>
           <br>
           <div align="center" style="margin-top: 20px;">
@@ -2071,7 +2060,7 @@
                 <td width="500px">Competition starts</td>
               </tr>
               <tr>
-                <td>Mar 17, 2026</td>
+                <td>Mar 14, 2026</td>
                 <td>Phase 1 starts</td>
               </tr>
               <tr>
@@ -2079,11 +2068,11 @@
                 <td>Phase 1 ends</td>
               </tr>
               <tr>
-                <td>April 18, 2026</td>
+                <td>April 22, 2026</td>
                 <td>Phase 2 starts</td>
               </tr>
               <tr>
-                <td>May 18, 2026</td>
+                <td>May 11, 2026</td>
                 <td>Phase 2 ends</td>
               </tr>
               <tr>
